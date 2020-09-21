@@ -1,0 +1,45 @@
+header {
+  background-image: url(../img/home-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}
+
+section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.tabs .indicator {
+  background: #1a237e;
+}
+
+.tabs .tab a:focus,
+.tabs a:focus.active {
+  background: transparent;
+}
+
+#showContent {
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 670px) {
+  #showContent {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  #showContent h2 {
+    font-size: 30px;
+  }
+  #showContent p {
+    font-size: 18px;
+  }
+}
